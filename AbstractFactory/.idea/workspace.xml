@@ -5,22 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9391a5f3-cde1-4d68-b40f-6cfae9391091" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buttons/MacOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkboxes/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkboxes/MacOSCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/checkboxes/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factories/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factories/MacOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factories/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/builders/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/builders/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/builders/CarManualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/cars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/cars/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/cars/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/components/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/components/GPSNavigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/components/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/components/TripComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Builder/src/main/java/org/example/director/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +53,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Users/WebUTC/swe/AbstractFactory",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="ChaunOfrepo" />
+      <module name="AbstractFactory" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.buttons.*" />
@@ -86,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667572676080</updated>
       <workItem from="1667572687353" duration="1840000" />
+      <workItem from="1667615513254" duration="202000" />
     </task>
     <servers />
   </component>
